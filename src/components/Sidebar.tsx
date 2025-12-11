@@ -4,7 +4,7 @@ export default function Sidebar() {
   const menu = [
     { to: "/", icon: "home", label: "Dashboard" },
     { to: "/messages", icon: "bag", label: "Messages" },
-    { to: "/leads", icon: "diagram", label: "Leads" },
+    { to: "/analytics", icon: "diagram", label: "Analytics" },
     { to: "/reports", icon: "pie", label: "Reports" },
     { to: "/settings", icon: "box", label: "Settings" },
   ];

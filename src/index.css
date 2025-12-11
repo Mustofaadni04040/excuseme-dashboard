@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "@fontsource/aileron";
+@import "@fontsource/aileron/400.css";
+@import "@fontsource/aileron/400-italic.css";
 
 * {
-  font-family: "Outfit", sans-serif;
+  font-family: "Aileron";
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
