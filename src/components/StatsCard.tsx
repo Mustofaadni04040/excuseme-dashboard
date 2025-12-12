@@ -68,7 +68,7 @@ export default function StatsCard() {
 
           <div className="relative">
             <div className="absolute top-1/2 left-25 z-50 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm">
-              {radialValue}%
+              100%
             </div>
 
             <RadialChart value={radialValue} />

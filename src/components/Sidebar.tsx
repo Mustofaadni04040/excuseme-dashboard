@@ -10,7 +10,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="w-14 h-fit absolute left-0 top-[50%] translate-y-[-50%] px-8 bg-primary shadow-md shadow-slate-500 rounded-full flex flex-col items-center py-6 space-y-4">
+    <div className="w-14 h-fit fixed left-0 top-[50%] translate-y-[-50%] px-8 bg-primary shadow-md shadow-slate-500 rounded-full flex flex-col items-center py-6 space-y-4">
       {menu.map((item, index) => (
         <NavLink
           key={index}
