@@ -4,12 +4,12 @@ import Navbar from "../components/Navbar";
 
 export default function Layout() {
   return (
-    <div className="grid grid-cols-12 min-h-screen mr-10">
-      <div className="relative col-span-1">
+    <div className="lg:grid lg:grid-cols-12 min-h-screen lg:mr-10">
+      <div className="lg:relative lg:col-span-1">
         <Sidebar />
       </div>
 
-      <main className="w-full p-6 col-span-11">
+      <main className="w-full p-6 lg:col-span-11">
         <Navbar />
         <Outlet />
       </main>

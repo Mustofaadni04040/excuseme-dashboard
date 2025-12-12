@@ -49,7 +49,6 @@ export default function Navbar() {
         </nav>
       ) : (
         <>
-          {/* Hamburger Icon */}
           <button
             aria-label="Open mobile menu"
             onClick={() => setOpen(true)}
@@ -58,7 +57,6 @@ export default function Navbar() {
             <img src="/assets/icons/menu.png" alt="" className="w-8 h-8" />
           </button>
 
-          {/* Overlay */}
           {open && (
             <div
               className="fixed inset-0 bg-black/40 z-40"
@@ -66,7 +64,6 @@ export default function Navbar() {
             />
           )}
 
-          {/* Sidebar Menu */}
           <div
             className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-50 p-6 transform transition-transform duration-300 ${
               open ? "translate-x-0" : "translate-x-full"
