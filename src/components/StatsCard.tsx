@@ -32,7 +32,7 @@ export default function StatsCard() {
 
         <div className="relative w-full my-5 flex flex-col gap-2">
           <div
-            className="absolute -top-8 z-50 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm"
+            className="absolute -top-8 z-10 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm"
             style={{ left: `${progressValue}%` }}
           >
             {progressValue}%
@@ -67,7 +67,7 @@ export default function StatsCard() {
           </div>
 
           <div className="relative flex items-center justify-center">
-            <div className="absolute top-1/2 left-28 lg:left-2/3 z-50 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm">
+            <div className="absolute top-1/2 left-28 lg:left-2/3 z-10 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm">
               100%
             </div>
 
@@ -91,7 +91,7 @@ export default function StatsCard() {
 
         <div className="relative w-full my-5 flex flex-col gap-2">
           <div
-            className="absolute -top-8 z-50 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm"
+            className="absolute -top-8 z-10 transform -translate-x-1/2 text-[10px] font-semibold bg-white shadow-[0px_0px_25px_0px_rgba(0,0,0,0.1)] px-2 py-1 rounded-sm"
             style={{ left: `${progressValue}%` }}
           >
             {progressValue}%
