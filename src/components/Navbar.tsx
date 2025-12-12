@@ -8,7 +8,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="flex items-center justify-between my-4 mr-10">
+    <header className="max-w-[1200px] mx-auto flex items-center justify-between my-4">
       <a href="/" className="block">
         <img
           src="/logo.png"

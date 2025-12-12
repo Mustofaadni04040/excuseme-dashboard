@@ -1,3 +1,9 @@
+import StatsCard from "../components/StatsCard";
+
 export default function Dashboard() {
-  return <div>Dashboard</div>;
+  return (
+    <div className="container">
+      <StatsCard />
+    </div>
+  );
 }
